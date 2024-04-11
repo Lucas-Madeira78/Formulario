@@ -1,0 +1,101 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/src/images/fundo.png);
+    background-size: contain;
+}
+
+.texto {
+    width: 300px;
+    color: #fff;
+    margin: 30px;
+}
+
+.titulo {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.paragrafo {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.areaDoFormulario {
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+    margin: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.input {
+    height: 35px;
+    margin: 0px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #A8A8A8;
+}
+
+.nome {
+    margin: 20px 20px 0px 20px;
+}
+
+.preenchido {
+    border: 1px solid #00c22b;
+}
+
+.naoPreenchido {
+    border: 1px solid #f52e2e
+}
+
+.email {
+    margin-bottom: 0;
+}
+
+.mensagem {
+    height: 100px;
+}
+
+.aviso {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.required {
+    font-weight: 400;
+    font-size: 8px;
+    margin-left: 20px;
+    color: #f52e2e;
+    padding-bottom: 5px;
+    visibility: hidden;
+}
+
+.botao {
+    width: 298px;
+    height: 41px;
+    margin: 20px;
+    background-color: rgb(59, 204, 134);
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
